@@ -12,13 +12,13 @@ function draw() {
  let sc = second();
 
  strokeWeight(8);
- stroke("white");
+ stroke("Lime");
  noFill();
 
  let secondAngle = map(sc,0,60,0,360);
  arc(0, 0, 300, 300, 0, secondAngle);
 
- stroke("Lime");
+ stroke("white");
  let minuteAngle = map(mn,0,60,0,360);
  arc(0, 0, 280, 280, 0, minuteAngle);
 
@@ -34,13 +34,13 @@ function draw() {
 
  push();
  rotate(minuteAngle);
- stroke("white");
+ stroke("green");
  line(0,0,75,0);
  pop();
 
  push();
  rotate(hourAngle);
- stroke("green");
+ stroke("white");
  line(0,0,50,0);
  pop();
 
