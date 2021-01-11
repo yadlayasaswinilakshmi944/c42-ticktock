@@ -1,2 +1,2 @@
-# c42-ticktock
-ticktock the indian clock
+# p5.play-boilerplate
+Boiler plate for p5.play
